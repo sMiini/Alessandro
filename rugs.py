@@ -12,7 +12,7 @@ def calcola_costo_materiali(superficie, superficie_minima, superficie_massima, n
     colla_minima = 3
     colla_massima = 4.5
     vinile_minimo = 4.5
-    vinile_massimo = 6
+    vinile_massimo = 6 
     
     # Calcolo del costo della colla
     colla = colla_minima + (superficie - superficie_minima) / (superficie_massima - superficie_minima) * (colla_massima - colla_minima)
