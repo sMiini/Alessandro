@@ -28,7 +28,7 @@ def calcola_costo_materiali(superficie, superficie_minima, superficie_massima, n
     
     return colla, vinile, costo_gomitoli_bianchi_neri, costo_gomitoli_colorati
 
-st.set_page_config(layout="wide")
+
 
 # Barra laterale per il costo fisso aggiunto al costo totale del tappeto
 num_gomitoli_bianchi_neri_precedenti = st.sidebar.number_input("Numero di gomitoli bianchi e neri (1€)", value=0) 
